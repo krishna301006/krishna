@@ -1,0 +1,62 @@
+<html>
+    <body>
+    <style>
+        body{
+            background-color:red;
+        }
+        }
+    </style>
+    <button onclick= "fun()">sum</button>
+<div>
+    <div><h1>sum=</h1></div>
+    <div><h1 id="h1"></h1></div>
+</div>
+<script>
+    function fun(){
+    var a=36;
+    var b=64;
+    var c=a+b;
+    document.getElementById("h1").innerHTML=c;
+    }
+</script>
+<button onclick= "fun1()">sub</button>
+<div>
+    <div><h1>sub=</h1></div>
+    <div><h1 id="h2"></h1></div>
+</div>
+<script>
+    function fun1(){
+    var d= 36;
+    var e=64;
+    var f=d-e;
+    document.getElementById("h2").innerHTML=f;
+    }
+</script>
+<button onclick= "fun2()">div</button>
+<div>
+    <div><h1>div=</h1></div>
+    <div><h1 id="h3"></h1></div>
+</div>
+<script>
+    function fun2(){
+    var g= 32;
+    var h=64;
+    var i=h/g;
+    document.getElementById("h3").innerHTML=i;
+    }
+</script>
+<button onclick= "fun3()">mul</button>
+<div>
+    <div><h1>mul=</h1></div>
+    <div><h1 id="h4"></h1></div>
+</div>
+<script>
+    function fun3(){
+    var j= 36;
+    var k=64;
+    var l=j*k;
+    document.getElementById("h4").innerHTML=l;
+    }
+</script>
+</body>
+</html>

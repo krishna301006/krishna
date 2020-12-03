@@ -1,0 +1,22 @@
+<html>
+    <style>
+        body{
+            background-color:aqua;
+        }
+    </style>
+    <body>
+<input id="k1">+<input id="k2">=<p id="p1"></p>
+<br>
+<button onclick="fun()">sum</button>
+</body>
+<script>
+    function fun(){
+        var a=document.getElementById("k1").value;
+        var b=document.getElementById("k2").value;
+        var c=parseInt(a)+parseInt(b);
+
+        document.getElementById("p1").innerHTML=c;
+        
+    }
+</script>
+</html>
